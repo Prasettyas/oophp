@@ -95,7 +95,7 @@
 	}
 //instansiasi object
 	$produk1 = new Komik("Naruto", "Masaashi Kishimoto", "Shonen", 300000, 100);
-	$produk2 = new Game("Uncharted", "Neil Druckmann", "Sony Computer", 20000,50);
+	$produk2 = new Game("Uncharted", "Neil Druckmann", "Sony Computer", 20000,50);One Piece
 	
 
 	//Menampilakan data
@@ -108,7 +108,7 @@
 	echo $produk2->getHarga();
 	echo "<hr>";
 
-	$produk1->setJudul("One Piece");
+	$produk1->setJudul("Uncharted");
 	echo $produk1->getPenerbit();
 
  ?>
